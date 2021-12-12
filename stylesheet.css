@@ -1,0 +1,79 @@
+:root {
+    --clr-primary-400 : #18a0fb;
+}
+
+body {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+nav {
+    margin: 2rem 0;
+    display: flex;
+    width: 100%;
+}
+
+.nav-left {
+    float: left;
+    width: 50%;
+}
+
+.nav-right {
+    float: right;
+    text-align: right;
+    margin-right: 2rem;
+    width: 50%;
+}
+
+ul li {
+    display: inline;
+    padding: 2rem;
+}
+
+a {
+    text-decoration: none;
+    color: var(--clr-primary-400);
+    font-weight: bold;
+}
+
+
+
+.login-btn {
+    background-color: white;
+    border: 1px solid var(--clr-primary-400);
+    border-radius: 5px;
+    padding: 12px 48px;
+}
+
+.register-btn {
+    background-color: var(--clr-primary-400);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 12px 48px;
+}
+
+.hero {
+    display: grid;
+    place-items: center;
+    height: 70vh;
+}
+
+.play-btn {
+    margin-top: 5em;
+    border: none;
+    border-radius: 100%;
+    padding: 3rem;
+    background-color: var(--clr-primary-400);
+    color: white;
+    margin-bottom: 0;
+}
+
+.join-today-btn {
+    background-color: var(--clr-primary-400);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 8px 32px;
+    margin-top: 0;
+}
